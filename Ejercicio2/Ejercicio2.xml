@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Le añado el espacio de nombres con la etiqueta bk-->
+<html xmlns:bk="http://example.com/book">
+<head><title>Book Review</title></head>
+<body>
+<bk:bookreview>
+    <bk:title>Introducción a XML</bk:title>
+    <table>
+        <tr align="center">
+            <td>Author</td>
+            <td>Price</td>
+            <td>Pages</td>
+            <td>Date</td>
+        </tr>
+        <tr align="left">
+        <!--A partir de aquí lo añado a todas las etiquetas que describan algo
+         sobre el libro como autor, precio, páginas y fecha-->
+            <td><bk:author>Simon St. Laurent</bk:author></td>
+            <td><bk:price>31.98</bk:price></td>
+            <td><bk:pages>352</bk:pages></td>
+            <td><bk:date>1998/01</bk:date></td>
+        </tr>
+    </table>
+</bk:bookreview>
+</body>
+</html>

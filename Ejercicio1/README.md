@@ -1,0 +1,1 @@
+Ponemos como inicio la etiqueta catálogo y le añado un espacio de nombres, con os y office, como pide en la práctica. Después vamos abriendo etiquetas dependiendo del tipo de software: os(si es de sistemas operativos) y office(si es de aplicaciones de oficina). Dentro de estas etiquetas metemos como hijo algunos de sus características como nombre, versión, desarrollador y url 

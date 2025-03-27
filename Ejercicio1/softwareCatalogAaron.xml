@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Aquí abro los espacipos de nombres, y declaro os(sistemas operativos)
+y office(aplicaciones de oficina)-->
+<catalogo xmlns:os="http://example.com/os" xmlns:office="http://example.com/office">
+    <!-- Software de Sistemas Operativos -->
+    <!--En estos ejemplos meto el nombre os porque son tres software
+    de sistemas operativos, también lo añado a cada característica del
+    software como nombre version desarrollador y url-->
+    <os:software>
+        <os:nombre>Windows Server</os:nombre>
+        <os:version>2022</os:version>
+        <os:desarrollador>Microsoft</os:desarrollador>
+        <os:url>https://www.microsoft.com/en-us/windows-server</os:url>
+    </os:software>
+    
+    <os:software>
+        <os:nombre>Fedora</os:nombre>
+        <os:version>39</os:version>
+        <os:desarrollador>Red Hat</os:desarrollador>
+        <os:url>https://getfedora.org/</os:url>
+    </os:software>
+    
+    <os:software>
+        <os:nombre>OpenBSD</os:nombre>
+        <os:version>7.4</os:version>
+        <os:desarrollador>OpenBSD Project</os:desarrollador>
+        <os:url>https://www.openbsd.org/</os:url>
+    </os:software>
+    
+    <!-- Software de Aplicaciones de Oficina -->
+    <!--En estos ejemplos meto el nombre office porque son tres software
+    de sistemas operativos, también lo añado a cada característica del
+    software como nombre version desarrollador y url-->
+    <office:software>
+        <office:nombre>Apache OpenOffice</office:nombre>
+        <office:version>4.1.14</office:version>
+        <office:desarrollador>Apache Software Foundation</office:desarrollador>
+        <office:url>https://www.openoffice.org/</office:url>
+    </office:software>
+    
+    <office:software>
+        <office:nombre>Zoho Office Suite</office:nombre>
+        <office:version>N/A</office:version>
+        <office:desarrollador>Zoho Corporation</office:desarrollador>
+        <office:url>https://www.zoho.com/office-suite/</office:url>
+    </office:software>
+    
+    <office:software>
+        <office:nombre>SoftMaker Office</office:nombre>
+        <office:version>2024</office:version>
+        <office:desarrollador>SoftMaker</office:desarrollador>
+        <office:url>https://www.softmaker.com/</office:url>
+    </office:software>
+</catalogo>
